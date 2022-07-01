@@ -1,0 +1,115 @@
+/* Style Primeira Pagina */
+
+body {
+    background-color: #1A8018;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.logo-balance {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center; 
+    background-color: rgb(10, 61, 19); 
+    
+}
+
+.logo-balance-texto {
+    color: rgb(9, 90, 9) ;
+}
+
+.bem-vindo {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center; 
+}
+
+.bem-vindo-texto {
+    grid-column: 2;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.inputs {
+    background: #C4C4C4;
+    color: black;
+}
+
+.inputs-2 {
+    color:black
+}
+
+.btn-pos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.botao-entrar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: rgb(10, 61, 19);
+    height: 40px;
+    width: 200px;
+}
+
+
+/* Style Segunda Pagina */
+
+.ola {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+div > h5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-content: center;
+    
+}
+
+
+
+.imagem-grafico {
+    position: relative;
+    height: 400px;
+    width: 700px;
+    background-color: rgba(247, 252, 247, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("assets/grafico-de-despesas.webp")
+
+}
+
+.custos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 20px;
+    color: white;
+
+}
+
+.valor{
+    text-align: end;
+    color: white;
+    
+}
